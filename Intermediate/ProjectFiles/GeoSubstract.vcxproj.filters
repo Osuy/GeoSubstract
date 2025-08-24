@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GeoSubstract.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GeoSubstract.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GeoSubstractEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CGAL_Lib">
+      <UniqueIdentifier>{9E2DF424-EE57-3474-8248-54BBA94ABE90}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CGAL_Lib\CGAL_Lib.Build.cs">
+      <Filter>Source\CGAL_Lib</Filter>
+    </None>
+    <Filter Include="Source\CGAL_Lib\x64">
+      <UniqueIdentifier>{A3F48603-4093-3562-918C-0C1954D22579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CGAL_Lib\x64\Release">
+      <UniqueIdentifier>{DBB2A4ED-337F-36B3-BA85-38D8E23C7B7B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.lib">
+      <Filter>Source\CGAL_Lib\x64\Release</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.lib.recipe">
+      <Filter>Source\CGAL_Lib\x64\Release</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.log">
+      <Filter>Source\CGAL_Lib\x64\Release</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.obj">
+      <Filter>Source\CGAL_Lib\x64\Release</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.pch">
+      <Filter>Source\CGAL_Lib\x64\Release</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.pdb">
+      <Filter>Source\CGAL_Lib\x64\Release</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.vcxproj.FileListAbsolute.txt">
+      <Filter>Source\CGAL_Lib\x64\Release</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\pch.obj">
+      <Filter>Source\CGAL_Lib\x64\Release</Filter>
+    </None>
+    <Filter Include="Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog">
+      <UniqueIdentifier>{EAE34208-DE59-3E88-A20B-7CEACD98D90C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog\CGAL_Lib.lastbuildstate">
+      <Filter>Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog\CL.command.1.tlog">
+      <Filter>Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog\Cl.items.tlog">
+      <Filter>Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog\CL.read.1.tlog">
+      <Filter>Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog\CL.write.1.tlog">
+      <Filter>Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog\Lib-link.read.1.tlog">
+      <Filter>Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog\Lib-link.write.1.tlog">
+      <Filter>Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog</Filter>
+    </None>
+    <None Include="..\..\Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog\Lib.command.1.tlog">
+      <Filter>Source\CGAL_Lib\x64\Release\CGAL_Lib.tlog</Filter>
+    </None>
+    <Filter Include="Source\GeoSubstract">
+      <UniqueIdentifier>{0963A356-E0C9-328C-8413-3FDB9B382822}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GeoSubstract\GeoSubstract.Build.cs">
+      <Filter>Source\GeoSubstract</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GeoSubstract\GeoSubstract.cpp">
+      <Filter>Source\GeoSubstract</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\GeoSubstract.h">
+      <Filter>Source\GeoSubstract</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\GeoSubstractCharacter.cpp">
+      <Filter>Source\GeoSubstract</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\GeoSubstractCharacter.h">
+      <Filter>Source\GeoSubstract</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\GeoSubstractGameMode.cpp">
+      <Filter>Source\GeoSubstract</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\GeoSubstractGameMode.h">
+      <Filter>Source\GeoSubstract</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\GeoSubstractPlayerController.cpp">
+      <Filter>Source\GeoSubstract</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\GeoSubstractPlayerController.h">
+      <Filter>Source\GeoSubstract</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Private">
+      <UniqueIdentifier>{6D65056A-8AD9-350B-929F-D5856BFE8428}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Private\GSBlueprintFunctionLibrary.cpp">
+      <Filter>Source\GeoSubstract\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GeoSubstract\Public">
+      <UniqueIdentifier>{B0C05621-4B1C-3514-84F3-54DBA6F6087E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GeoSubstract\Public\GSBlueprintFunctionLibrary.h">
+      <Filter>Source\GeoSubstract\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_Combat">
+      <UniqueIdentifier>{4CFBAB39-F531-348A-ACF2-F261F2A718AC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\GeoSubstract\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\GeoSubstract\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\GeoSubstract\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_Combat\AI">
+      <UniqueIdentifier>{A3ECFFF0-1F95-3556-B42D-FA6DAB56FDE5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_Combat\Animation">
+      <UniqueIdentifier>{9DBA685A-F1E6-34B7-B707-DD964BFC6AE0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{AA9719AF-5D2A-3BDB-9337-18A134A1C803}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{C36BEF43-A3F2-3532-967D-23E5DC0D7077}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_Combat\UI">
+      <UniqueIdentifier>{5B9A871E-6C99-38C1-9047-9B5969BC2594}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\GeoSubstract\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\GeoSubstract\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_Platforming">
+      <UniqueIdentifier>{C259EA2E-7789-386E-9D39-BE612F02F18C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\GeoSubstract\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\GeoSubstract\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\GeoSubstract\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\GeoSubstract\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\GeoSubstract\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\GeoSubstract\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_Platforming\Animation">
+      <UniqueIdentifier>{51AB2CB0-AE10-30D8-815A-81F9C5C619C0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\GeoSubstract\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\GeoSubstract\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_SideScrolling">
+      <UniqueIdentifier>{EB1CF0EF-E390-3E2F-A007-6E75C57BBCFE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{74991E3D-B949-339B-91B6-880FF197337E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{7B6CACA8-D4A6-3DA2-8C90-BFA925BFBE26}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{C6B1DBEE-E811-3FD0-84F7-9CE6C3F9D308}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\GeoSubstract\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{167D310B-BBC9-3645-A529-312DEA7C94DD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GeoSubstract\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GeoSubstract\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\GeoSubstract\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

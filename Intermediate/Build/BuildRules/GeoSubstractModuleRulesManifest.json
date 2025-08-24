@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\osuy\\Data\\Projects\\GeoSubstract\\Source\\CGAL_Lib\\CGAL_Lib.Build.cs",
+		"C:\\Users\\osuy\\Data\\Projects\\GeoSubstract\\Source\\GeoSubstract\\GeoSubstract.Build.cs",
+		"C:\\Users\\osuy\\Data\\Projects\\GeoSubstract\\Source\\GeoSubstract.Target.cs",
+		"C:\\Users\\osuy\\Data\\Projects\\GeoSubstract\\Source\\GeoSubstractEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

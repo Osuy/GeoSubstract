@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GeoSubstract",
+			"Path": "..\\Source\\GeoSubstract.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GeoSubstractEditor",
+			"Path": "..\\Source\\GeoSubstractEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
